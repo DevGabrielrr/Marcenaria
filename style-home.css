@@ -1,0 +1,187 @@
+.title {
+    width: 100%;
+}
+
+header {
+    background: #A38068;
+}
+
+
+nav ul {
+    font-weight: bold;
+}
+
+
+nav li {
+    display: inline;
+    padding: 0 90px 0 0;
+}
+
+
+ nav a {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.text {
+    width: 100%;
+    padding: 10px 0;
+    text-align: right;
+}
+
+
+p {
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0px 0 0px;
+    margin: 40px 700px 40px 90px;
+}
+
+.aluna{
+    float: right;
+    top: 390px;
+    width: 38%;
+    right: 8px;
+    position: absolute;
+}
+
+
+.foot{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 9%;
+   /color: whitesmoke;
+}
+
+form {
+    margin: 60px 0px 40px 0px;
+} 
+
+form label {
+    display: block;
+}
+
+.contato {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.texto {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.endereco {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.dia {
+    font-weight: bold;
+    font-size: 20px;
+    right: 20px;
+}
+
+table {
+    position: relative;
+    width: 20%;
+    margin-left:17%;
+}
+
+
+thead {
+    background: #A38068;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+td,th {
+    text-align: center;
+    width: 100px;
+    border: 1px solid  black;
+    padding: 8px 15px;
+    right: 100px;
+}
+
+footer {
+    font-size: 12px;
+    width: 100%;
+    background: #A38068;
+    color: black;
+    height: 150px;
+}
+
+.foot {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 9%;
+    color: whitesmoke;
+}
+
+ @media (max-width: 1000px) {
+       nav li, nav a {
+              font-size: 10px;
+              width: 100%;
+              padding: 0 10px 0 0;
+ }
+
+}
+
+@media (max-width: 1000px) {
+    iframe {
+        width: 40%;
+        height: 10%;
+        padding-bottom: 65%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .endereco{
+        width: 40%;
+    }
+}
+
+ @media (max-width: 1000px) {
+       p {
+          width: 50%;
+          font-size: 15px;
+          font-style: italic;
+          margin: 10px 0 0 5px;
+          padding: 5px 50px 10px 10px;
+  }
+ }
+
+ @media (max-width: 1000px) {
+       .aluna {
+              top: 300px;
+              width: 38%;
+              right: 5px;
+              position: absolute;
+       }
+       
+       footer {
+        height: 30%;
+        font-size: 10px;
+       }
+ }
+
+ @media (max-width: 1000px) {
+       nav li, nav a {
+              font-size: 10px;
+              width: 100%;
+              padding: 0 10px 0 0;
+ }
+

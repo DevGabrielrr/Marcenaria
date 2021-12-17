@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+		<meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="shortcut icon" href="favicon/ico.png">
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	    <title>Curso de Marcenaria</title>
+</head>
+<body>
+
+	<header> 
+   	 <h1><img class=title src="imagens/header.jpg"> </h1> 
+
+	 	<nav>
+			<ul class=text>
+				<li><a href="index.html">Home</a></li> 
+				<li><a href="sobre.html"> Sobre </a></li>
+				<li><a href="contatos.html"> Contatos </a></li>
+				<li><a href="atividades.html"> Atividades </a></li>
+				<li><a href="inscricoes.html" target="_blank">Inscrições</a></li>
+			</ul>
+		</nav>  
+
+	</header>
+
+
+  <main>
+	 <form>
+
+	  <h1 class="inicio"> Formulário de Inscrição - Cursos Da Rede Calábria</h1>
+
+	   <div class="for">
+
+	   	 <label for="nome"> Nome e Sobrenome: </label>
+	   	 <input type="text" name="nome"required>
+
+	   </div>
+
+	   <div class="for">
+		  <label for="email">E-mail:</label>
+		  <input type="email" name="email"required placeholder="seuemail@dominio.com">
+	   </div>
+
+	   <div class="for">
+		  <label for="tel">Telefone:</label>
+		  <input type="Telefone" name="tel"required placeholder="(xx)xxxxx-xxx">
+	   </div>
+			
+	   <p class="for">Escolha seu Curso Pretendido:
+
+		  <select>
+			 <option>Programação Web</option>
+			 <option>Marcenaria</option>
+			 <option>Padaria</option>
+			 <option>Mecânica</option>
+			 <option>Ass.Administrativo</option>
+			 <option>Criação de Games</option>
+			 <option>Multimídias</option>
+		  </select>
+	   </p>
+
+	   <div class="for">
+		  <label for="turno">Qual turno Pretende Realizar o curso?<br><br></label>
+		  <label><input type="radio" name="turno">Manhã</label>
+		  <label><input type="radio" name="turno">Tarde</label>
+	   </div>
+			
+       <fieldset class="area">
+
+		 <legend>Conte um pouco sobre você e o motivo de escolher esse curso: <br><br></legend>
+		 <textarea cols="40" rows="5" id="colunas" required> </textarea >
+
+	   </fieldset>
+
+	   <div class="for">
+
+		 <label for="aluno">Já foi aluno da rede calábria?<br><br></label>
+		 <label><input type="radio" name="aluno">Sim</label>
+		 <label><input type="radio" name="aluno">Não</label>
+
+	   </div>
+
+	   <div class="for">
+
+		  <label for="grau">Qual Grau de Escolaridade? <br><br></label>
+
+		  <label><input type="radio" name="grau">Concluindo o Ensino Fundamental<br></label>
+
+		  <label><input type="radio" name="grau">Ensino Médio - Cursando <br></label>
+
+		  <label><input type="radio" name="grau">Ensino Médio - Concluído <br></label>
+
+		  <label><input type="radio" name="grau">Graduação/Técnico <br></label>
+
+	   </div>
+
+       <div class="for">
+
+			<input type="submit" name="Enviar" class="enviar">
+			<input type="reset" name="Limpar" value="Limpar" class="enviar">
+
+	   </div>
+	 </form>
+  </main>
+
+
+<footer>
+    <h1 class=foot> &copy;Copyright MARCENARIA - 2021 </h1>
+</footer>
+
+</body>
+</html>

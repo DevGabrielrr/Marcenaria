@@ -1,0 +1,201 @@
+.title {
+	width: 100%;
+}
+
+header {
+    background: #A38068;
+}
+
+nav ul {
+    font-weight: bold;
+}
+
+.text {
+    width: 100%;
+    padding: 10px 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline;
+    padding: 0 70px 0 0;
+}
+
+nav a {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    font-size: 18px;
+    color: whitesmoke;
+  
+}
+
+h1,h2 {
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+    padding: 15px 0 30px 0;
+}
+
+p {
+    text-align: center;
+    font-size: 26px;
+    color: chocolate;
+    padding: 28px 0 20px 0;
+}
+
+#atividade {
+    
+    margin-left: 25%;
+}
+
+#formao {
+    position: absolute;
+    left: 47%;
+    padding:82px  0 0 8px;
+}
+
+.mod2 {
+    margin-left: 25%;
+}
+ #lixa {
+    padding-left: 2px;
+ }
+
+.topia {
+    position: absolute;
+    right: 500px;
+     padding:93px 7px 0 6px;  
+} 
+
+#nicho {
+    padding-top: 3%;
+}
+.final {
+    position: relative;
+    padding-left: 15%;
+    width: 30%;   
+}
+
+.foot {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+    padding-top: 5%;
+    color: whitesmoke;
+}
+
+.inicio {
+    text-align: center;
+    margin-top: 50px;
+    padding: 0px 0px 60px 0px;
+    font-size: 35px;
+    color: black;
+}
+
+.for {
+    font-size: 25px;
+    text-align: left;
+    padding: 0 0 20px 39px;
+    color: #A68068;
+}
+.area {
+    width: 30%;
+    font-size: 20px;
+    margin:0 0 10px 39px;
+    color: #A68068;
+    
+}
+.enviar {
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 40px 0 40px;
+    color: black;
+    border: 2px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.enviar:hover {
+    color: Chocolate;
+    
+
+}
+
+footer {
+    width: 100%;
+    background: #A38068;
+    height: 150px;
+}
+
+
+ @media (max-width: 1000px) {
+       nav li, nav a {
+              font-size: 10px;
+              width: 100%;
+              padding: 0 10px 0 0;
+    }
+}
+
+ @media (max-width: 1000px) {
+       nav li, nav a {
+              font-size: 10px;
+              width: 100%;
+              padding: 0 10px 0 0;
+ }
+
+@media (max-width: 1000px) {
+    p {
+        font-size: 14px;
+        padding: 10px 5px;
+
+    }
+    #formao {
+        width: 35%;
+        margin: 160px 0 0 44px;
+    }
+    
+    #atividade{ 
+        
+        width: 30%;
+       
+    }
+
+    #trena {
+        width: 30%;
+        margin: 10px 50px 0 120px;
+
+    } 
+}
+
+@media(max-width:  1000px) {
+    .final {
+        width: 30%;
+        margin: auto;
+        padding-left: 55px;
+    }
+    .mod2{
+        width: 33%;
+
+    }
+    #serra {
+        width: 30%;
+         margin: 0 0px 0 119px;
+    }
+
+    #lixa{
+        width: 25%;
+    }
+    #nicho{
+        width: 38%;
+    }
+     footer {
+        height: 30%;
+        font-size: 10px;
+       }
+}
